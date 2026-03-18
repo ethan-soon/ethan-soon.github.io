@@ -45,7 +45,7 @@ const projects: Project[] = [
     course: 'UBC: Introduction to Robotics',
     date: 'March 2026',
     tags: ['Python', 'OpenCV', 'YOLOv8'],
-    github: 'https://github.com/ethan-soon/CV_Yolo',
+    github: 'https://github.com/ethan-soon/AR_Yolo_Detection',
     description:
       'Implemented real-time object detection and tracking using YOLOv8 with bounding box overlay and confidence scoring. Detected and decoded ArUco markers to estimate 6-DOF pose, enabling augmented reality projection onto physical surfaces. Performed full camera calibration using a 7×6 checkerboard pattern, computing intrinsic parameters and distortion coefficients. Developed the detection pipeline, AR projection, and calibration workflows in Python using OpenCV and Ultralytics.',
   },
@@ -55,7 +55,7 @@ const projects: Project[] = [
     course: 'Personal Project',
     date: 'August 2025',
     tags: ['STM32', 'PID', 'SPI', 'ToF sensor'],
-    github: 'https://github.com/ethan-soon/Ball_Beam_PID_Control',
+    github: 'https://github.com/ethan-soon/Beam_PID_Control',
     description:
       'Implemented a PID algorithm capable of maintaining the position of a ball at adjustable set points. Created a system composed of a ToF distance sensor and servo motor interfaced through an STM32 F4 series microcontroller and mounted on a 3D printed tilt frame. Used STM32 CubeIDE to configure GPIO, PWM, timer, and SPI communication peripherals.',
   },
