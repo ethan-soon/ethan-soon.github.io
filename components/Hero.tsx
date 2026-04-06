@@ -3,7 +3,7 @@
 export default function Hero() {
   return (
     <section
-      className="circuit-bg"
+      className=""
       style={{
         minHeight: '100vh',
         display: 'flex',
@@ -23,7 +23,7 @@ export default function Hero() {
           transform: 'translate(-50%, -50%)',
           width: '600px',
           height: '600px',
-          background: 'radial-gradient(circle, rgba(74,103,65,0.15) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(122,163,116,0.08) 0%, transparent 70%)',
           pointerEvents: 'none',
         }}
       />
