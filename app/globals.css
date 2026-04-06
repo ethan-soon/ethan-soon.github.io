@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --sage: #7d9b76;
-  --sage-light: #a8c5a0;
-  --sage-dark: #4a6741;
+  --sage: #a5c49e;
+  --sage-light: #c5dcc0;
+  --sage-dark: #7aa374;
   --sage-muted: #e8f0e8;
-  --bg: #0f1410;
-  --bg-secondary: #161d16;
-  --bg-card: #1a231a;
-  --text: #e8f0e8;
-  --text-muted: #8a9e8a;
-  --border: #2a3a2a;
+  --bg: #111518;
+  --bg-secondary: #181d1e;
+  --bg-card: #1e2622;
+  --text: #e3ebe2;
+  --text-muted: #8da48d;
+  --border: #2c3830;
 }
 
 * {
@@ -35,21 +35,13 @@ body {
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--sage-dark); border-radius: 3px; }
 
-/* Circuit board background pattern */
-.circuit-bg {
-  background-image:
-    linear-gradient(var(--border) 1px, transparent 1px),
-    linear-gradient(90deg, var(--border) 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-
-/* Glowing sage accent */
+/* Subtle sage accent shadow */
 .sage-glow {
-  box-shadow: 0 0 20px rgba(125, 155, 118, 0.2);
+  box-shadow: 0 0 16px rgba(165, 196, 158, 0.08);
 }
 
 .sage-text-glow {
-  text-shadow: 0 0 20px rgba(125, 155, 118, 0.4);
+  /* no glow */
 }
 
 /* Animated underline */
