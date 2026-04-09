@@ -24,20 +24,20 @@ const projects: Project[] = [
     title: 'Haptic Feedback Controller',
     course: 'UBC: Introduction to Robotics',
     date: 'Jan 2026 – Present',
-    tags: ['ROS 2', 'Simulink', 'Linux', 'RVis'],
-    github: 'https://github.com/ethan-soon/NovintFalcon',
+    tags: ['ROS 2', 'Simulink', 'Linux', 'RVis', 'Gazebo'],
+    github: 'https://github.com/ethan-soon/Falcon_Franka_HapticControl',
     description:
-      'Utilizing a Novint Falcon controller through Simulink to read position and apply haptic forces. Using RVis in a ROS 2 Humble environment on Linux to simulate the 6DOF Franka robot actuator while detecting collision forces in the virtual space. Communicating between ROS 2 and Simulink to allow the simulation to send force-feedback to the controller. Implementing two 3DOF Novint Falcon controllers to achieve 6DOF control (3DOF translational + 3DOF rotational) of the robot actuator.',
+      'Utilizing a Novint Falcon controller to read position and apply haptic forces. Using RVis and Gazebo in a ROS 2 Humble environment on Linux to simulate the 6DOF Franka robot actuator while detecting collision forces in the virtual space. Communicating between ROS 2 nodes to allow the simulation to send force-feedback to the controller. Implementing two 3DOF Novint Falcon controllers to achieve 6DOF control (3DOF translational + 3DOF rotational) of the robot actuator.',
   },
   {
     id: '02',
     title: 'Piano Playing Robot',
     course: 'UBC: EE Design Studio II',
     date: 'Jan 2026 – Present',
-    tags: ['STM32', 'PID', 'SolidWorks', 'Embedded C', 'Firmware'],
+    tags: ['STM32', 'PID', 'Altium', 'SolidWorks', 'Embedded C', 'Firmware'],
     github: 'https://github.com/chatrajaman3/ELEC391_25W2_Robo_Maestro',
     description:
-      'Designed, simulated, and implemented a PID controller capable of stabilizing a motor rotor to a select angle. Interfaced a rotary encoder and DC motor through an STM32 microcontroller to read position and apply control algorithms. Modelled an 895 DC motor, bracket, and gear system using SolidWorks to aid integration of 3D prints. Developing drivers for a HAL-effect sensor, ILI9341 display, SD card compatibility, and writing system logic for the robot.',
+      'Designed, simulated, and implemented a PID controller capable of stabilizing a motor rotor to a select angle. Used Altium to develop a custom STM32 motherboard with plug-in board-to-board connections and peripherals to sensor and display. Modelled an 895 DC motor, bracket, and gear system using SolidWorks to aid integration of 3D prints. Developed drivers for a HAL-effect sensor, ILI9341 display, and designed system logic for the robot.',
   },
   {
     id: '03',
